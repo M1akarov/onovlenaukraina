@@ -141,6 +141,15 @@ hr {
   color: #fff;
 }
 
+.header__logo--img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+}
+
 
 
 /* ======== Nav =========== */
@@ -287,7 +296,8 @@ hr {
   font-size: 14px;
   font-weight: 700;
 
-  color: #fff;
+  background: 	#6495ED;
+  color: #FFEFD5;
   text-transform: uppercase;
   text-decoration: none;
   transition: background 0.1s linear, color 0.1s linear;
@@ -609,6 +619,21 @@ hr {
 
 .accordion__item.active .accordion__content {
   display: block;
+}
+
+.money {
+  display: flex;
+  justify-content: space-around;
+
+}
+
+.money a {
+  text-decoration: none;
+  color: #333;
+}
+
+.money a:hover {
+  text-decoration: underline;
 }
 
 .accordion__item.active .accordion__header {
