@@ -640,10 +640,10 @@ hr {
   border-bottom-color: #e5e5e5;
 }
 /* Внимание */
-.accordion__item.active .accordion__header:after {
+/* .accordion__item.active .accordion__header:after {
   transform: translateY(-50%) rotate(-45deg);
   margin-top: 5px;
-}
+} */
 
 .accordion__header {
   padding: 15px 20px 15px 65px;
@@ -653,7 +653,7 @@ hr {
 }
 
 /* Внимание */ /* Внимание */ /* Внимание */
-.accordion__header:after {
+/* .accordion__header:after {
   content: "";
   display: block;
   width: 16px;
@@ -665,7 +665,7 @@ hr {
   right: 20px;
   z-index: 1;
   transform: translateY(-50%) rotate(135deg);
-}
+} */
 
 .accordion__icon {
   position: absolute;
