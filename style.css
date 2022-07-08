@@ -147,9 +147,17 @@ hr {
   cursor: pointer;
   margin: 0;
   padding: 0;
+  position: relative;
 }
 
-
+.header__logo--subtitle {
+  position: absolute;
+  top: 20px;
+  left: 100px;
+  font-size: 15px;
+  padding: 0;
+  margin: 0;
+}
 
 /* ======== Nav =========== */
 
@@ -300,6 +308,7 @@ hr {
   text-transform: uppercase;
   text-decoration: none;
   transition: background 0.1s linear, color 0.1s linear;
+  border-radius: 10px;
 }
 
 .btn:hover {
@@ -1588,6 +1597,15 @@ hr {
 
   .section__title:after {
     margin: 20px auto;
+  }
+
+  .header__logo--subtitle {
+    position: absolute;
+    top: 20px;
+    left: 72px;
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
   }
 
   /* Stat */
