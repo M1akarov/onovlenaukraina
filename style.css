@@ -297,14 +297,11 @@ hr {
   vertical-align: top;
   padding: 8px 30px;
   margin-bottom: 40px;
-
-  border: 3px solid #fff;
-
   font-size: 14px;
   font-weight: 700;
 
-  background: 	#6495ED;
-  color: #FFEFD5;
+  background: #fff;
+  color: #333;
   text-transform: uppercase;
   text-decoration: none;
   transition: background 0.1s linear, color 0.1s linear;
@@ -312,24 +309,23 @@ hr {
 }
 
 .btn:hover, .btn__header:hover {
-  background-color: #fff;
-  color: #333;
+  background-color: #6495ED;
+  color: #FFEFD5;
 }
 
 .btn__header {
   display: inline-block;
   vertical-align: top;
   padding: 8px 30px;
-  border: 3px solid #fff;
   margin-left: 20px;
   font-size: 14px;
   font-weight: 700;
 
-  background: 	#6495ED;
-  color: #FFEFD5;
+  background: #fff;
+  color: #333;
   text-transform: uppercase;
   text-decoration: none;
-  transition: background 0.1s linear, color 0.1s linear;
+  transition: background 0.3s linear, color 0.3s linear;
   border-radius: 10px;
 }
 
