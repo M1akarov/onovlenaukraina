@@ -706,9 +706,9 @@ hr {
 }
 
 .accordion__content--link {
-  text-decoration: underline dotted red;
   color: #1E90FF;
   font-weight: 900;
+  /* font-size: 20px; */
 }
 
 .accordion__content--link:hover {
